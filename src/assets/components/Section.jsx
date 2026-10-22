@@ -1,12 +1,15 @@
+import './Section.css'
+
 export function Section(){
     return (
         <> 
            <section>  
                 <div>
-                    <h1>Section1</h1>
-                </div>
-                <div>
-                    <h1>Section2</h1>
+                    <form>
+                        <h1>Formulário de Login</h1>
+                        <label for="email">Email:  <input id="email"></input> </label>
+                        <label for="senha">Senha: <input id="senha"></input></label>
+                    </form>
                 </div>
             </section>
         </>
