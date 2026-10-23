@@ -1,14 +1,14 @@
 import { Footer } from "./assets/components/Footer"
 import { Navbar } from "./assets/components/Navbar"
-import { Section } from "./assets/components/Section"
+import { FormularioLogin } from "./assets/components/formularioLogin"
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Section />
-      <Footer />      
+      <FormularioLogin />
+      <Footer />
     </>
   )
 }
